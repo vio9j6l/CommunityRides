@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {styles} from 'CommunityRides/components/styles/stylesSheet.js'
 
 import {
     View,
@@ -8,7 +9,7 @@ import {
     TouchableOpacity,
   } from 'react-native'
 
-class Config extends Component{
+class LoginScreen extends Component{
 
   constructor(props){
     super(props);
@@ -108,94 +109,8 @@ class Config extends Component{
           Community Rides
             </Text>
 
-
-
           </View>
       )
     }
   }
-  export default Config
-
-  const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#1C86EE',
-    },
-
-    companyName:{
-      marginTop: 300,
-      fontSize: 18,
-      fontWeight: 'bold',
-      textAlign: 'center',
-      color: '#FCFBFC',
-    },
-
-
-    paragraph: {
-      margin: 24,
-      fontSize: 18,
-      fontWeight: 'bold',
-      textAlign: 'center',
-      color: '#FCFBFC',
-    },
-
-    HeaderText: {
-      margin: 15,
-      marginBottom: -5,
-      fontSize: 18,
-      fontWeight: 'bold',
-      textAlign: 'left',
-      color: '#FCFBFC',
-    },
-    SignUpHeaderText:{
-      marginTop: 100,
-      margin: 15,
-      marginBottom: -5,
-      fontSize: 18,
-      fontWeight: 'bold',
-      textAlign: 'left',
-      color:'#d3d3d3',
-    },
-
-    textStyle: {
-      margin: 5,
-      fontSize: 16,
-      color: '#1C86EE',
-    },
-
-    boarder: {
-      height: 40,
-      borderColor: 'transparent',
-      borderWidth: 2.5,
-      margin: 15,
-      marginBottom: 0,
-      borderBottomColor: 'gray',
-      color: '#FCFBFC',
-    },
-
-    submitButton: {
-      backgroundColor: '#FCFBFC',
-      padding: 5,
-      margin: 8,
-      height: 40,
-      alignItems: 'center',
-      borderRadius: 15,
-      borderWidth: 1,
-   },
-
-   submitButtonText:{
-      color: '#1C86EE',
-      fontSize: 18,
-      fontWeight: 'bold',
-      textAlign: 'center',
-   },
-
-   transparentButton: {
-    margin: -20,
-    backgroundColor: 'transparent',
-    fontSize: 18,
-    fontWeight: 'bold',
-    textAlign: 'center',
-   },
-
-})
+  export default LoginScreen

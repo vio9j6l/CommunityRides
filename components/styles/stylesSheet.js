@@ -7,10 +7,12 @@ export const styles = StyleSheet.create({
   },
 
   companyName:{
-    marginTop: 300,
+    alignSelf: 'center',
+    position: 'absolute',
+    bottom: 0,
+    marginBottom: 30,
     fontSize: 18,
     fontWeight: 'bold',
-    textAlign: 'center',
     color: '#FCFBFC',
   },
 
@@ -31,7 +33,8 @@ export const styles = StyleSheet.create({
     textAlign: 'left',
     color: '#FCFBFC',
   },
-  SignUpHeaderText:{
+  SignHeaderText:{
+    marginLeft: 20,
     marginTop: 100,
     margin: 15,
     marginBottom: -5,
@@ -61,15 +64,16 @@ export const styles = StyleSheet.create({
     backgroundColor: '#FCFBFC',
     padding: 5,
     margin: 8,
-    height: 40,
+    height: 55,
     alignItems: 'center',
+    justifyContent: 'center',
     borderRadius: 15,
     borderWidth: 1,
  },
 
  submitButtonText:{
     color: '#1C86EE',
-    fontSize: 18,
+    fontSize: 25,
     fontWeight: 'bold',
     textAlign: 'center',
  },
